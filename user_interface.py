@@ -19,9 +19,6 @@ if user_input := st.chat_input("Enter your question..."):
     with st.chat_message("user"):
         st.markdown(user_input, unsafe_allow_html=True)
     
-    with open('./inputs/userinput.md', 'w') as f:
-        f.write(str(user_input))
-    
     # Append user's message to session state
     st.session_state.messages.append({"role": "user", "content": user_input})
 
