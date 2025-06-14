@@ -35,8 +35,6 @@ async def async_run(query):
         ]
     )
 
-    with open("./outputs/manager_agent_output.txt", "w") as f:
-        f.write(completion.choices[0].message.content)
 
     return completion.choices[0].message.content
 
