@@ -36,8 +36,7 @@ Your task is to combine the responses from all three agents to craft a single, c
 Note: Mimic the messaging chat behaviour and keep the response message lenght as short as possible
 
 Rules:
-1. Skip the including information in final answer that are not directly relevant to the user query. Precisely
-Overview answer the query with only the relevant information to the user query.
+1. Skip the including information in final answer that are not directly relevant to the user query. Precisely answer the query with only the relevant information to the user query.
 """
 
 web_agent_ki_prompt = """
